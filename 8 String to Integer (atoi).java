@@ -1,6 +1,5 @@
 class Solution {
     public int myAtoi(String str) {
-        
         int result=0;
         str=str.trim();
         if(str.equals("")){return 0;}
